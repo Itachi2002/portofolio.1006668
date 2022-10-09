@@ -1,31 +1,176 @@
 body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: darkblue;
-    background-color: lightblue;
+    font-family: Helvetica Neue, Helvetica, sans-serif;
+    color: white;
+    background-color: #09f;
+    
 }
+
+@media (max-width: 400px){
+  
+  
+  .profile-pic{
+    width: auto;
+    height: auto;
+
+  }
+  .box{
+    width: 350px;
+    height: 300px;
+    display: flex;
+
+  }
+  .nextToEachOther{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .stats{
+    display: none;
+
+  }
+
+  .skills{
+    display: block;
+    
+  }
+
+  .foto{
+    width: 100px;
+    height: 100px;
+  }
+
+  h1{
+    font-size: 30px;
+  }
+
+  h2{
+    font-size: 25px;
+  }
+  
+}
+
+h1{
+  text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+
+
+h2{
+  text-align: center;
+  text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+h3{
+  text-align: center;
+  text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+p{
+  text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+    margin: auto;
+    margin-left: 5px;
+}
+
+.punt{
+  text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
 
 table, th, td {
     border: 1px solid;
     
   }
 
+
+.title{
+  text-align: center;
+  font-size: 30px;
+}
+
+img{
+  width: 200px;
+  margin: 0%;
+}
+
+.box{
+  display: flex;
+  border: #ddd;
+  border-radius: 5px solid white;
+  width: auto;
+  margin: auto;
+  border: 5px solid ;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 7px 10px 17px rgba(0,0,0);
+  
+}
+
+
 .card{
-    
-    width: 50vw;
+    display: block;
+    width: 30vw;
     margin: auto;
-    border: 4px solid darkblue;
-    background-color: lightblue;
-    border-radius: 30px;
+    border: 4px  ;
+    border-radius: 50px;
     overflow: hidden;
     box-shadow: 7px 10px 17px rgba(0,0,0);
-    margin-bottom: 5%;
+    margin-bottom: 5%; 
+    text-align: center;  
+    text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
     
+}
+
+.nextToEachOther{
+  display: flex;
+  justify-content: space-around;
+}
+
+.underEachOther{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  
 }
 
 .profile-pic{
     width: 100%;
     
     
+}
+
+.kampioen{
+  width: 100%;
+  
+  
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
 }
 
 .skills{
@@ -52,37 +197,11 @@ table, th, td {
     padding: 5px;
 }
 
-/* Add a black background color to the top navigation */
-.topnav {
-    background-color: white;
-    overflow: hidden;
-  }
-  
-  /* Style the links inside the navigation bar */
-  .topnav a {
-    float: left;
-    color: darkblue;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  /* Change the color of links on hover */
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  /* Add a color to the active/current link */
-  .topnav a.active {
-    background-color: darkblue;
-    color: white;
-  }
+
 
   .footer-basic {
     padding:40px 0;
-    background-color:darkblue;
+    background-color:black;
     color:white;
   }
   
@@ -139,4 +258,3 @@ table, th, td {
     color:white;
     margin-bottom:0;
   }
-  
