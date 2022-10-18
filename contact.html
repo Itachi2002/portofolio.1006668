@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href = "css/opdr.css">
+    <title>Frans Fouad portofolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="css/background.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/contact.css">
+    
+</head>
+
+
+<body>
+    <div class="bg"></div>
+    <div class="bg bg2"></div>
+    <div class="bg bg3"></div>
+
+    <nav class="skew-menu">
+        <ul>
+            <li><a href="opdr.html">Home</a></li>
+            <li><a href="Voetbal.html">Voetbal</a></li>
+            <li><a href="Programeren.html">Programeren</a></li>
+            <li><a href="#about">Piano</a></li>
+            <li><a href="contact.html">Contact</a></li>
+
+        </ul>
+    </nav>
+    
+<h1>Contact</h1>
+<section class ="form">
+
+    <form action="contact-bedankt.html">
+        <!-- Hier komen ALLE form elementen -->
+        <div class="formfield">
+            <label for="fname">Voornaam</label><br>
+            <input type="text" id="fname" name="fname"><br>
+        </div>
+
+        <div class="fromfield">
+            <label for="city">Woonplaats</label><br>
+            <input type="text" id="city" name="city"> 
+        </div>
+        
+        <div class="fromfield">
+            <label for="email">Email</label><br>
+            <input type="text" id="email" name="email"> 
+        </div>
+
+    </form>
+
+    <div>
+        <label class="label" for="send-to">Ik heb een vraag over</label>
+        <select id="send-to" name="send-to">
+            <option value="0">Kies een onderwerp</option>
+            <option value="1">Programeren</option>
+            <option value="2">Frans</option>
+            <option value="3">Voetbal</option>
+        </select>
+    </div>
+
+    	<p>Mijn vraag</p>
+    <textarea name="message" rows="10" cols="30">
+        
+        </textarea>
+
+
+      <form action="https://docent.cmi.hr.nl/moora/frontend/send-mail.php" method="POST">
+        <div>
+            <label class="label" for="send-to">Stuur de mail naar</label>
+            <select id="send-to" name="send-to">
+                <option value="0">Antwan</option>
+                <option value="1">Bas</option>
+                <option value="2">Erik</option>
+                <option value="3">Martijn</option>
+            </select>
+        </div>
+    </form>
+
+
+    <p>Voorkeuren</p>
+    <form>
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">Schrijf me in voor de nieuwsbrief</label><br>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">Ik ga akkoord met de voorwaarden</label><br>
+        
+    </form>
+</section>
+
+<footer>
+    <body>
+        <section class="footer-basic">
+            <footer>
+                <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
+               
+                <p class="copyright">Frans Fouad © 2022</p>
+            </footer>
+        </section>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+    </body>
+</footer>
+</html>
+
+</body>
